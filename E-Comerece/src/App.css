@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+:root {
+  --primary: #3DCFD3;
+  --dark: #161616;
+  --pure: #FFFFFF;
+  --ternary: #898989;
+  --light: #F2F2F2;
+  --secondary: #070606;
+}
+
+.Navbar{
+  height: 90px;
+  padding: 20px 30px;
+  background-color:var(--dark);
+}
+.Container{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.Logo{
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.Logo img{
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.Logo h3{
+  color: var(--pure);
+  text-decoration: none;
+
+}
+.LOGOName{
+  text-decoration:none;
+}
+.Navigations{
+  display: flex;
+}
+.Navigations .Link{
+  text-decoration: none;
+  color: var(--pure);
+  margin-right: 30px;
+  font-weight: 400;
+  font-size: 20px;
+  transition: 0.3s ease-in;
+}
+.Navigations .Link:hover{
+  transform: scale(1.2);
+  color:var(--primary);
+ 
+}
+.Search-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.Search-box .S-input input{
+  padding: 7px 10px;
+  font-weight: 600;
+  font-size: 14px;
+  width: 150%;
+  border-radius: 2px;
+  border: none;
+  outline: 3px solid var(--primary);
+  color: var(--light);
+  
+}
+.Search-box .btn button{
+  padding: 5px 20px;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 2px;
+  border: none;
+  margin-left: 120px;
+  background: var(--primary);
+  outline: 4px solid var(--primary);
+  transition: 0.2s ease-in;
+
+}
+.Search-box .btn button:hover{
+  background-color: transparent;
+  color: var(--pure);
+  outline: 4px solid var(--primary);
+
+}
+.container-2{
+  background-color: var(--dark);
+  color: var(--primary);
+  margin: auto;
+  width: 100%;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border: 1px Solid white;
+}
+

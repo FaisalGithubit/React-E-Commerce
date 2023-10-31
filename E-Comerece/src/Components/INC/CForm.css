@@ -1,0 +1,84 @@
+.Main-container-2{
+    background-color: gray;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    overflow-x: auto;
+    padding: 50px 50px;
+    border-radius: 30px;
+}
+.btn-2{
+    width: 30%;
+    margin: auto;
+    margin-top: 20px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    padding: 5px 5px;
+    border-radius: 20px;
+    transition: 0.3s ease-in;
+}
+.btn-2:hover{
+  background-color: white;
+  color:rgb(25,135,84);
+  outline: 4px solid rgb(25,135,84);
+}
+
+.sig-Slu {
+    margin-top: 30px;
+    background-image: url(/public/Images/signup.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.signup-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.signup-info h2{
+    color: whitesmoke;
+    font-size: 30px;
+}
+.signup-info p{
+    color: whitesmoke;
+    font-size: 20px;
+}
+.signup-info p span{
+    color: rgb(220, 28, 28);
+    line-height: 40px;
+}
+.email{
+    margin-right: 60px;
+    display: flex;
+    align-items: center;
+}
+.email input{
+    height: 35px;
+    width: 100%;
+    border-radius: 6px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding-left: 10px;
+    align-items: center;
+    outline: none;
+    border: none;
+}
+.email button{
+    height: 35px;
+    width: 110px;
+    border-radius: 6px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    outline: none;
+    border: none;
+    color:whitesmoke;
+    background-color:brown;
+    cursor: pointer;
+}

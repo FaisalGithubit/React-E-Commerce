@@ -1,0 +1,132 @@
+.Footer{
+    background-color: rgba(0, 0, 0, 0.815);
+    color: white;
+    margin-top: 50px;
+    width: 100%;
+  
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 30px;
+    
+}
+.Shop{
+    display: flex;
+    flex-direction: column;
+  
+   
+}
+.Shop h3{
+    font-size: 20px;  
+    line-height: 30px;
+}
+.Shop h4{
+    font-size: 20px;  
+}
+.Shop a{
+    line-height: 30px;
+    text-decoration: none;
+    color:rgb(88, 88, 188);
+    cursor: pointer;
+    transition: 0.1s ease-in;
+}
+.Shop a:hover{
+    color:yellow;
+ }
+.Support{
+    display: flex;
+    flex-direction: column;
+}
+.Support h3{
+    font-size: 20px;  
+    line-height: 30px;
+}
+.Support a{
+    line-height: 30px;
+    text-decoration: none;
+    color:rgb(88, 88, 188);
+    cursor: pointer;
+    transition: 0.1s ease-in;
+}
+.Support a:hover{
+    color:yellow;
+ }
+.COMPANY{
+    display: flex;
+    flex-direction: column;
+}
+.COMPANY h3{
+    font-size: 20px;  
+    line-height: 30px;
+}
+.COMPANY a{
+    line-height: 30px;
+    text-decoration: none;
+    color:rgb(88, 88, 188);
+    cursor: pointer;
+    transition: 0.1s ease-in;
+}
+.COMPANY a:hover{
+   color:yellow;
+}
+.Contact{
+    display: flex;
+    flex-direction: column;
+}
+.Details{
+    line-height: 30px;
+}
+.Details h4{
+    font-size: 20px;
+}
+.Details a{
+    color: rgb(88, 88, 188);
+    cursor: pointer;
+    text-decoration: none;
+}
+.Details a:hover{
+    color:yellow;
+}
+.Details p{
+    color: gray;
+}
+.Location{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+
+}
+.S-Location{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.S-Location h2{
+        font-size: 20px;
+        line-height: 30px;
+
+}
+.S-Location p{
+        font-size: 16px;
+        color: gray;
+        line-height: 30px;
+}
+.Find-Location{
+    height: 30px;
+    width:150px;
+    padding: 5px;
+    background-color:rgb(106, 18, 18);
+    color: whitesmoke;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.SocialMedia a{
+    background-color: gray;
+    padding: 10px;
+    color: white;
+    margin-left: 5px;
+    border-radius: 10px;
+}
